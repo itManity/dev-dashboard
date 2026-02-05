@@ -1,0 +1,56 @@
+.logs-toolbar {
+  margin-bottom: 1rem;
+}
+
+.log-filters {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.log-filter-btn {
+  padding: 0.3rem 0.65rem;
+  font-size: 0.75rem;
+  border-radius: 999px;
+}
+
+.log-filter-active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+.log-time {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.log-message {
+  max-width: 500px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Extra log type badges */
+.badge-enhancement {
+  background: rgba(214, 158, 46, 0.15);
+  color: #d69e2e;
+}
+
+.badge-death {
+  background: rgba(197, 48, 48, 0.15);
+  color: #fc8181;
+}
+
+.badge-levelup {
+  background: rgba(72, 187, 120, 0.15);
+  color: #48bb78;
+}
+
+.badge-admin {
+  background: rgba(128, 90, 213, 0.15);
+  color: #b794f4;
+}
